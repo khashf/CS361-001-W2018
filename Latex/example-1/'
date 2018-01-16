@@ -1,0 +1,56 @@
+\documentclass[12pt]{article}
+%\usepackage{times}
+\usepackage{cite}
+%this is a comment
+\title{Data Visualization for Civic Engagement in Corvallis City}
+\author{Khuong Luu (luukh) and Aidan Grimshaw (grimshaa)}
+
+
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+
+
+\section{Why do we need a (better) visualization for civic data?}
+Hello, world!
+
+\subsection{Why Civic data is helpful}
+
+- Help searching for better 
+- Give better picture of housing cost in city
+- Goverment Transparancy
+
+\subsection{Current existing solution is doing it poorly}
+
+
+\section{Our solution}
+
+
+Our website accquires data from many available sources (and also maybe more data from the city if needed, with the help of the school), cleaning them, and visualize them in a interactive way and easy to comprehend with user experience in mind. Through that, we inform people in Corvallis (or people who are interested) a clear civic information that can make them make better voting decision, more aware of where they live, their neiborhood, their city, their city government, and the city government may be able to make better governing decision.
+
+The key differences between our website and some existing websites such as city-data.com and opendatanetwork.com are that: First, we are more focus on Corvallis city and have connection with the city. Second, we're better in city-data.com in that we visualize data more interactively, more attractive. Third, our website make data more accessible compared to goverment website like corvallisoregon.gov which only provide some obscure pdf files. Fourth, existing solutions only show data of a few recent years, we aims to make more data available. 
+
+What make our application/website uniquely effective and useful is that our visualization is interactive and is designed with the  
+
+\section{Development Roadmap}
+
+One of the limiations of our application is the time to complete the project. We have only 10 weeks and not all of us are familiar with the technologies we're going to use to build this application. Thus, we have to propose small, start small and build the solution incrementally, and try our best. Alongside, we can help each other in technical difficulities as a group.
+
+The single most serious challenge I see in developing the product on schedule is the time we need to accquire data from the government if the data we need is not available or we alone can not get permission to accquire the data but also need to help of OSU in the scope of student project as we are not a credible entity to "talk" to the government of Corvallis. Our solution is to start looking and asking for data from the city as soon as our project is approved.
+
+
+
+\section{References}
+
+Software Engineering: Theory and Practice~\cite{pfleeger2010software}
+
+Software Engineering~\cite{sommerville2011software}
+
+
+\bibliography{myref}
+\bibliographystyle{plain}
+
+\end{document}

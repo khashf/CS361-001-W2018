@@ -30,11 +30,11 @@ This contrasts sharply with the way government data is currently displayed. Most
 Government data is about accountability. By making information being inaccessible to the average voter, local governments make their elected officials less accountable both directly and indirectly. Elected officials are less accountable directly by the lack of objective statistical measures of their performance, and indirectly, through lack of voter turnout. This is a problem when we want the government to represent the people.
 
 \subsection{Current existing solution is doing it poorly for the common people}
-
 Upon our research, we found that there are some existing solutons available such as city-data.com, corvallisoregon.gov, data.orcities.org. However, these solutions is doing it poorly. city-data.com design is not user friendly, slow loading, and not useful visualization; corvallisoregon.gov only provide plain data in form of long, hard to comprehend text file, written in government language, data.orcities.org only provide API and so not accessible to the common people. Imagine I middle age person with minium technology experience want to find out more about how our goverment, neiborhood, city is doing, how could he/she nagivigate through all of these mess?
 
 
 \section{Our solution}
+
 
 Our website accquires data from many available sources (and also maybe more data from the city if needed, with the help of the school), cleaning them, and visualize them in a interactive way and easy to comprehend with user experience in mind. Through that, we inform people in Corvallis (or people who are interested) a clear civic information that can make them make better voting decision, more aware of the problems and challenge of the city, and the neiborhood they are living in.In the other hand, the city government may also be able to make better governing decision.
 
@@ -46,19 +46,17 @@ What make our application/website uniquely effective and useful are that our vis
 
 One of the limiations of our application is the time to complete the project. We have only 10 weeks and not all of us are familiar with the technologies we're going to use to build this application. Thus, we have to propose small, start small and build the solution incrementally, and try our best. Alongside, we can help each other in technical difficulities as a group.
 
-The single most serious challenge I see in developing the product on schedule is the time we need to accquire data from the government if the data we need is not available or we alone can not get permission to accquire the data but also need to help of OSU in the scope of student project as we are not a credible entity to "talk" to the government of Corvallis. When crafting this ideas, the authors are certainly not totally 100\% sure about if we can get enough data we need but we are certain we can eventually get it or adjust our goals a little bit. In all, the problem is how long it would take to get enough data, and that duration could be a block to our project planning and development. Our solution is to start looking and asking for data from the city as soon as our project is approved so that we will hopefull have enough time. While waiting to get the real data, we will build our application with sample data first so we don't have to wait until the real data arrives. In this way, we can minize the risk of project failure. Furthermore, we also event have a backup plan. If in the worst case we can't get enough data we need from the city, we will change our subject to Oregon State University. This subject is much easier and faster to accquire data.
+The single most serious challenge I see in developing the product on schedule is the time we need to accquire data from the government if the data we need is not available or we alone can not get permission to accquire the data but also need to help of OSU in the scope of student project as we are not a credible entity to "talk" to the government of Corvallis. When crafting this ideas, the authors are certainly not totally 100\% sure about if we can get enough data we need but we are certain we can eventually get it or adjust our goals a little bit. In all, the problem is how long it would take to get enough data, and that duration could be a block to our project planning and development. Our solution is to start looking and asking for data from the city as soon as our project is approved so that we will hopefull have enough time. While waiting to get the real data, we will build our application with sample data first so we don't have to wait until the real data arrives.
+
 
 \section{References}
 
+Software Engineering: Theory and Practice~\cite{pfleeger2010software}
 
-[1]"In the U.S., Almost No One Votes in Local Elections", CityLab, 2018. [Online]. Available: https://www.citylab.com/equity/2016/11/in-the-us-almost-no-one-votes-in-local-elections/505766/. [Accessed: 16- Jan- 2018].
-
-[2]"Who Votes For Mayor?", Whovotesformayor.org, 2018. [Online]. Available: http://www.whovotesformayor.org/. [Accessed: 16- Jan- 2018].
+Software Engineering~\cite{sommerville2011software}
 
 
-[3]N. Lelyveld, "Poll finds L.A. County residents want to be more involved in their community but don't have time", latimes.com, 2015. [Online]. Available: http://www.latimes.com/politics/la-pol-ca-vision-poll-la-county-story.html. [Accessed: 16- Jan- 2018].
-
-[4]"How To Read a Flood Insurance Rate Map Tutorial | FEMA.gov", Fema.gov, 2018. [Online]. Available: https://www.fema.gov/media-library/assets/documents/7984. [Accessed: 16- Jan- 2018].
-
+\bibliography{myref}
+\bibliographystyle{plain}
 
 \end{document}
