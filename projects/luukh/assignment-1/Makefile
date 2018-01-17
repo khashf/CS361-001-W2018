@@ -1,43 +1,19 @@
-# this is a comment
-
-TARGET=first
-
+TARGET=vision
 
 default: pdf
 
-#bib: bib
-#	bibtex ${TARGET}
+pdf: ${TARGET}.tex
+	pdflatex ${TARGET}.tex
+	bibtex ${TARGET}
+	pdflatex ${TARGET}.tex
+	pdflatex ${TARGET}.tex
 
-dvi: ${TARGET}.tex 
-#	run latex twice to get references correct
-	latex ${TARGET}.tex
-#	you can also have a bibtex line here
-#	bibtex $(TARGET)
-	latex $(TARGET).tex
-
-ps: dvi
-	dvips -R -Poutline -t letter ${TARGET}.dvi -o ${TARGET}.ps
-
-pdf: ps
-	ps2pdf ${TARGET}.ps
-
-clean-dvi:
-	rm -f ${TARGET}.aux
-	rm -f ${TARGET}.log
-	rm -f ${TARGET}.dvi
-	rm -f ${TARGET}.out
-	rm -f ${TARGET}.toc
-
-clean-ps: clean-dvi
-	rm -f ${TARGET}.ps
-
-clean-pdf: clean-ps
-	rm -f ${TARGET}.bbl
-	rm -f ${TARGET}.blg
+clean:
+	rm -f *.aux
+	rm -f *.log
+	rm -f *.dvi
+	rm -f *.toc
+	rm -f *.ps
+	rm -f *.bbl
+	rm -f *.blg
 	rm -f ${TARGET}.pdf
-
-
-clean: clean-pdf
-
-
-

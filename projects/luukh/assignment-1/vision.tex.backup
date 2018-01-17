@@ -1,126 +1,53 @@
 \documentclass[12pt]{article}
 
-%\usepackage{times}
+\usepackage{times}
 
-\usepackage{cite}
-
- 
+%\usepackage{cite}
 
 \title{Data Visualization for Civic Engagement in Corvallis}
-
 \author{Khuong Luu (luukh) and Aidan Grimshaw (grimshaa)}
-
- 
-
- 
-
- 
-
- 
 
 \begin{document}
 
 \maketitle
-
 \tableofcontents
-
- 
-
- 
 
 \section{Why we need a (better) visualization for civic data}
 
- 
-
 \subsection{The problem of low civic engagement and government transperancy}
 
- 
+Although voter turnout rates are relatively high for presidential races (50-60\%), there is relatively little turnout in local elections~\cite{CityLab}. An average of 15\% of Americans turnout for these elections. Some cities, like Las Vegas, Fort Worth, and Dallas have turnout rates below 10\%, at 9.4\%, 6.5\%, and 6.1\% respectively~\cite{Whovotesmayor}.
 
-Although voter turnout rates are relatively high for presidential races (50-60\%), there is relatively little turnout in local elections [1]. An average of 15\% of Americans turnout for these elections. Some cities, like Las Vegas, Fort Worth, and Dallas have turnout rates below 10\%, at 9.4\%, 6.5\%, and 6.1\% respectively [2].
-
- 
-
-Low voter turnout is a symptom of a larger problem. Eligible voters do not currently have access to the information they need to find issues that they can engage with. In a 2015 LA Times poll,  39\% of Los Angeles residents said that they didn’t get involved in the community because they were not sure what they could do to help [5].
-
- 
+Low voter turnout is a symptom of a larger problem. Eligible voters do not currently have access to the information they need to find issues that they can engage with. In a 2015 LA Times poll,  39\% of Los Angeles residents said that they didn’t get involved in the community because they were not sure what they could do to help~\cite{Moreinvolve}.
 
 The root cause of this issue is a lack of accessibility of government data.
 
- 
-
 As data science and data focused investigation has matured, there are many news organizations like fivethirtyeight and vox that have started to use data to tell stories and lend new insights to their readers.
 
- 
-
-This contrasts sharply with the way government data is currently displayed. Most government information available online, but is in a format inaccessible to the casual voter. FEMA for example, has all of their flood insurance map data available online, but the data comes with a 57 page tutorial required to understand it [4]. Many smaller local governments like Corvallis don’t have government data posted on their websites.
-
- 
+This contrasts sharply with the way government data is currently displayed. Most government information available online, but is in a format inaccessible to the casual voter. FEMA for example, has all of their flood insurance map data available online, but the data comes with a 57 page tutorial required to understand it~\cite{FloodInsurance}. Many smaller local governments like Corvallis don’t have government data posted on their websites.
 
 Government data is about accountability. By making information being inaccessible to the average voter, local governments make their elected officials less accountable both directly and indirectly. Elected officials are less accountable directly by the lack of objective statistical measures of their performance, and indirectly, through lack of voter turnout. This is a problem when we want the government to represent the people.
 
- 
-
 \subsection{Current existing solution is doing it poorly for the common people}
-
- 
 
 Upon our research, we found that there are some existing solutions available such as city-data.com, corvallisoregon.gov, data.orcities.org. However, these solutions are doing it poorly. city-data.com design is slow loading, not user-friendly, and has a poor visualization style; corvallisoregon.gov only provides plain data in form of long, hard to comprehend text files, written in government language, data.orcities.org only provides an API and is not accessible to the average user. An elderly user with minimum technology experience might want to find out more about how our government, neighborhood, city is doing. However, he or she would find it difficult to navigate this interface.
 
- 
-
 \section{Our solution}
-
- 
 
 Our website acquires data from many available online sources (data directly from the city if needed, with the help of the school), cleans the data, and creates an easy to understand and interactive representation of the trends in the data. Through that, we inform citizens of Corvallis with clear information that they can use to make better voting decisions, as well as become more aware of the problems and challenges of the city, and the neighborhood they are living in. The city government may also be able to make better governing decisions with a more informed and engaged populace.
 
- 
-
 There are several key differences between our website and some existing websites such as city-data.com and opendatanetwork.com. First, solely focus on Corvallis and the issues afflicting the city. Second, we will improve on the crude visualization style of city-data.com with more modern data visualization tools. Third, our website makes data more accessible compared to government websites like corvallisoregon.gov which only provides obscure and hard to understand tables in PDF files. Fourth, existing solutions only show data of a few recent years, we aim to make data visible from an earlier range of time.
-
- 
 
 There are several things that set our application apart. Our visualization is interactive and is designed with the user experience in mind. Our application will also run faster, have a longer time range. Finally, we might be able to invite OSU domain experts on the topic we visualize to give unbiased insights. These features make civic engagement more accessible
 
- 
-
 \section{Development Roadmap}
-
- 
 
 One of the limitations of our application is the time to complete the project. We have only 10 weeks and not all of us are familiar with the technologies we're going to use to build this application. Thus, we have to propose small, start small, build the solution incrementally, and try our best. Alongside this, we can help each other in technical difficulties as a group.
 
- 
-
 The single most serious challenge I see in developing the product on schedule is the time we need to acquire data from the government if the data we need is not available or we alone can not get permission to acquire the data but also need the help of OSU in the scope of a student project as we are not a credible entity to "talk" to the government of Corvallis. When crafting this ideas, the authors are certainly not totally 100\% sure about if we can get enough data we need but we are certain we can eventually get it or adjust our goals a little bit. In all, the problem is how long it would take to get enough data, and that duration could be a block to our project planning and development. Our solution is to start looking and asking for data from the city as soon as our project is approved so that we will hopefully have enough time. While waiting to get the real data, we will build our application with sample data first so we don't have to wait until the real data arrives. In this way, we can minimize the risk of project failure. Furthermore, we also event have a backup plan. If in the worst case we can't get enough data we need from the city, we will change our subject to Oregon State University. This subject is much easier and faster to acquire data.
 
- 
 
-\section{References}
-
- 
-
-[1]"In the U.S., Almost No One Votes in Local Elections", CityLab, 2018. [Online]. Available: https://www.citylab.com/equity/2016/11/in-the-us-almost-no-one-votes-in-local-elections/505766/. [Accessed: 16- Jan- 2018].
-
- 
-
-[2]"Who Votes For Mayor?", Whovotesformayor.org, 2018. [Online]. Available: http://www.whovotesformayor.org/. [Accessed: 16- Jan- 2018].
-
- 
-
- 
-
-[3]N. Lelyveld, "Poll finds L.A. County residents want to be more involved in their community but don't have time", latimes.com, 2015. [Online]. Available: http://www.latimes.com/politics/la-pol-ca-vision-poll-la-county-story.html. [Accessed: 16- Jan- 2018].
-
- 
-
-[4]"How To Read a Flood Insurance Rate Map Tutorial | FEMA.gov", Fema.gov, 2018. [Online]. Available: https://www.fema.gov/media-library/assets/documents/7984. [Accessed: 16- Jan- 2018].
-
- 
-
-\bibliography{myref}
-
+\bibliography{vision}
 \bibliographystyle{plain}
-
 
 \end{document}

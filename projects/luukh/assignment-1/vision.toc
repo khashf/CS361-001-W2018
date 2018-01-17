@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Why we need a (better) visualization for civic data}{1}
+\contentsline {subsection}{\numberline {1.1}The problem of low civic engagement and government transperancy}{1}
+\contentsline {subsection}{\numberline {1.2}Current existing solution is doing it poorly for the common people}{2}
+\contentsline {section}{\numberline {2}Our solution}{2}
+\contentsline {section}{\numberline {3}Development Roadmap}{3}

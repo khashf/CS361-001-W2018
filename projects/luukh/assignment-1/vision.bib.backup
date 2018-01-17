@@ -1,0 +1,35 @@
+@article {
+    CityLab,
+    title={In the U.S., Almost No One Votes in Local Elections},
+    author={Kriston Capps},
+    journal={Online},
+    year={2016},
+    url={https://www.citylab.com/equity/2016/11/in-the-us-almost-no-one-votes-in-local-elections/505766/}
+}
+
+@article {
+    Whovotesmayor,
+    title={Who Votes For Mayor},
+    author={Portland State University},
+    journal={Online},
+    year={2016},
+    url={http://www.whovotesformayor.org}
+}
+
+@article {
+    Moreinvolve,
+    title={Poll finds L.A. County residents want to be more involved in their community but don't have time},
+    author={Nita Lelyveld},
+    journal={Online},
+    year={2015},
+    url={http://www.latimes.com/politics/la-pol-ca-vision-poll-la-county-story.html}
+}
+
+@article {
+    FloodInsurance,
+    title={How To Read a Flood Insurance Rate Map Tutorial},
+    author={FEMA.gov},
+    journal={Online},
+    year={2018},
+    url={https://www.fema.gov/media-library/assets/documents/7984}
+}
